@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  list-style: none;
+}
+
+body{
+
+  color: #555555;
+  border-radius: 1rem;
+
+}
+
+.wrapper{
+   width: 650px;
+   height: auto;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+  display: flex;
+}
+
+.wrapper .profile{
+   width: 400px;
+   margin-right: 25px;
+}
+
+.wrapper .profile .profile_img_info{
+   display: flex;
+   background: #fff;
+   border-radius: 8px;
+   margin-bottom: 5px;
+   
+}
+
+.wrapper .profile .profile_img_info .img{
+  width: 125px;
+
+}
+
+.wrapper .profile .profile_img_info .img img{
+  width: 100%;
+  display: block;
+  border-top-left-radius: 10px;
+  height:120px;
+  border-bottom-left-radius: 10px;
+}
+
+.wrapper .profile .profile_img_info .info{
+    width: calc(100% - 125px);
+    padding: 40px;
+}
+
+.wrapper .profile .profile_img_info .info .name{
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+
+.wrapper .profile .profile_skills{
+  background: #fff;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.wrapper .profile .profile_skills .skills{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.wrapper .profile .profile_skills .skills p{
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.wrapper .profile .profile_skills .skills ul li{
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.wrapper .profile .profile_skills .skills ul li .fab{
+  width: 40px;
+}
+
+.wrapper .profile .profile_skills .tags_wrap{
+  padding-top: 20px;
+}
+
+.wrapper .profile .profile_skills .tags_wrap span.tag{
+  background: #e4e9ef;
+  padding: 10px 15px;
+  display: inline-block;
+  border-radius: 10px;
+  margin: 5px;
+  
+}
+.title{
+    font-size: 19px;
+    font-weight: 500;
+}
+button{
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: black;
+    letter-spacing: 0.1rem;
+    border-radius: 1rem;
+   width: 150px;
+   height: 50px;
+   font-weight: 600;
+   background-color: rgb(51, 167, 167);
+}
